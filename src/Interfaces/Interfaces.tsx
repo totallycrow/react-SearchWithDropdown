@@ -1,30 +1,28 @@
 export type TSearchData = {
-    name: string;
-    regularPrice: number;
-  };
+  name: string;
+  regularPrice: number;
+};
 
 export type TDropdownProps = {
-    searchMatches: Array<object>,
-    phrase: string
-}
+  searchMatches: Array<object>;
+  phrase: string;
+};
 
 export type TMainProps = {
   searchData: Array<TSearchData>;
 };
 
 export type TInputProps = {
-    inputValue: string
-    inputHandler: Function
-}
+  inputValue: string;
+  inputHandler: Function;
+};
 
 export type THighlightProps = {
-    text:string,
-    phrase:string
-}
+  text: string;
+  phrase: string;
+};
 
 export type TDropdownItemProps = {
-    
-        itemData: TSearchData,
-        phrase:string
-      
-}
+  itemData: string;
+  phrase: string;
+};

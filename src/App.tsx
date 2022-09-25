@@ -7,7 +7,7 @@ import { sampleData } from "./sampleData";
 function App() {
   return (
     <div>
-      <h1>test</h1>
+      <h1>Search</h1>
       <SearchWithDropdown searchData={sampleData} />
     </div>
   );
