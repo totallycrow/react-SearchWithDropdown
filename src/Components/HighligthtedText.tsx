@@ -1,6 +1,5 @@
 import React from "react";
-import {THighlightProps} from "../Interfaces/Interfaces"
-
+import { THighlightProps } from "../Interfaces/Interfaces";
 
 export default function HighligthtedText({ text, phrase }: THighlightProps) {
   const parts = text.split(new RegExp(`(${phrase})`, "gi"));
